@@ -4,14 +4,11 @@ import android.content.Context
 import android.content.DialogInterface
 import android.content.pm.PackageManager
 import android.location.LocationManager
-import android.view.View
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.app3null.common_code.R
-import com.google.android.material.snackbar.Snackbar
-import com.app3null.common_code.mvvm.common.extensions.colorOf
 import com.app3null.common_code.mvvm.common.extensions.notNull
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
